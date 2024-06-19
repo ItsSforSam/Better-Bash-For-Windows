@@ -1,0 +1,31 @@
+{
+  "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+  "makefile.configurations": [
+    {
+      "name": "Default",
+      "makeDirectory": "${workDir}/scr"
+    },
+    {
+      "name": "Clean",
+      "makeArgs": [
+        "clean"
+      ],
+      // "makeDirectory": "${workDir}/scr"
+    }
+  ],
+  "editor.formatOnSave": true,
+  "makefile.makefilePath": "MAKEFILE",
+  // "makefile.buildLog": ""
+  "makefile.launchConfigurations": [
+    {
+      "cwd": "${workDir}",
+      "binaryPath": "${workDir}/bin/bash.exe",
+      "binaryArgs": [],
+      "stopAtEntry": true
+    }
+  ],
+  "files.associations": {
+    ".manifest": "xml",
+    "iostream": "cpp"
+  }
+}
